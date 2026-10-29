@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Catherine Nolasco | Global People Operations Portfolio</title>
+<meta name="description" content="Global People Operations leader. HRIS, compliance, global mobility and AI-powered People Ops across the US, Canada, Germany, India, Japan, the UK and the UAE.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --black:#000; --ink:#06161a; --panel:#0a1d21; --panel2:#0d262b;
+  --teal:#01434a; --teal2:#217f86; --cyan:#3ADEE9;
+  --text:#e9f7f8; --muted:#9bbcc0; --line:rgba(58,222,233,.18);
+  --r:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--black);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--cyan);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+section{padding:88px 0;position:relative}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--cyan);margin-bottom:12px}
+h1,h2,h3{line-height:1.12;letter-spacing:-.02em}
+h2{font-size:clamp(28px,4vw,42px);font-weight:800;margin-bottom:14px}
+.lede{color:var(--muted);font-size:18px;max-width:720px;margin-bottom:40px}
+.btn{display:inline-block;padding:13px 24px;border-radius:999px;font-weight:700;font-size:15px;border:1px solid var(--cyan);transition:.2s}
+.btn.primary{background:var(--cyan);color:#001a1d}
+.btn.primary:hover{background:#7aeff5;text-decoration:none}
+.btn.ghost{color:var(--cyan)}
+.btn.ghost:hover{background:rgba(58,222,233,.1);text-decoration:none}
+
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(0,0,0,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:64px}
+.brand{font-weight:800;letter-spacing:-.01em;color:#fff}
+.brand span{color:var(--cyan)}
+nav ul{display:flex;gap:22px;list-style:none;font-size:14px;font-weight:500}
+nav ul a{color:var(--muted)}
+nav ul a:hover{color:var(--cyan);text-decoration:none}
+@media(max-width:860px){nav ul{display:none}}
+
+/* hero */
+.hero{padding:72px 0 96px;overflow:hidden;background:radial-gradient(900px 520px at 78% 30%,rgba(58,222,233,.22),transparent 60%),radial-gradient(700px 480px at 10% 0%,rgba(1,67,74,.7),transparent 65%),#000}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:300px;background:url(assets/mesh.svg) center bottom/cover no-repeat;opacity:.55;pointer-events:none}
+.hero .grid{display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center;position:relative;z-index:1}
+.hero h1{font-size:clamp(38px,6vw,68px);font-weight:800;margin-bottom:18px}
+.hero h1 em{font-style:normal;color:var(--cyan)}
+.hero p.sub{font-size:19px;color:var(--muted);max-width:620px;margin-bottom:28px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:36px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;max-width:640px}
+.stat{background:linear-gradient(160deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--r);padding:18px}
+.stat b{display:block;font-size:34px;font-weight:800;color:var(--cyan);line-height:1}
+.stat span{font-size:13px;color:var(--muted)}
+.photo{position:relative;justify-self:end;width:100%;max-width:380px}
+.photo::before{content:"";position:absolute;inset:-14px;border-radius:30px;background:linear-gradient(140deg,var(--cyan),var(--teal) 60%,transparent);opacity:.55;filter:blur(2px)}
+.photo img{position:relative;width:100%;border-radius:26px;display:block;border:1px solid var(--line)}
+.badge{position:absolute;left:-18px;bottom:26px;background:#000;border:1px solid var(--cyan);border-radius:14px;padding:10px 16px;font-size:13px;font-weight:700;color:var(--cyan);box-shadow:0 10px 30px rgba(0,0,0,.5)}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}.photo{justify-self:start;max-width:300px}.stats{grid-template-columns:1fr 1fr 1fr}.badge{left:10px}}
+@media(max-width:520px){.stats{grid-template-columns:1fr}}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+.card{background:linear-gradient(170deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--r);padding:28px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--cyan)}
+.card h3{font-size:20px;margin-bottom:8px}
+.card p,.card li{color:var(--muted);font-size:15px}
+.card ul{padding-left:18px;margin-top:8px}
+.tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#001a1d;background:var(--cyan);border-radius:999px;padding:4px 10px;margin-bottom:12px}
+.alt{background:linear-gradient(180deg,#000,#04171a 50%,#000)}
+
+/* tabs */
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}
+.tab{background:transparent;border:1px solid var(--line);color:var(--muted);padding:10px 18px;border-radius:999px;font:600 14px Inter,sans-serif;cursor:pointer;transition:.2s}
+.tab:hover{color:var(--cyan);border-color:var(--cyan)}
+.tab[aria-selected=true]{background:var(--cyan);color:#001a1d;border-color:var(--cyan)}
+.panel{display:none;background:linear-gradient(170deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--r);padding:32px}
+.panel.on{display:block}
+.panel h3{font-size:24px;margin-bottom:10px}
+.panel ul{padding-left:20px;color:var(--muted)}
+.panel li{margin:8px 0}
+.panel li b{color:var(--text)}
+
+/* countries */
+.countries{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.country{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:18px;text-align:left}
+.country b{display:block;font-size:17px}
+.country span{font-size:12px;color:var(--muted)}
+.country.lead{border-color:var(--cyan)}
+
+/* timeline */
+.tl{border-left:2px solid var(--line);margin-left:8px}
+.tl-item{position:relative;padding:0 0 34px 30px}
+.tl-item::before{content:"";position:absolute;left:-9px;top:6px;width:16px;height:16px;border-radius:50%;background:#000;border:3px solid var(--cyan)}
+.tl-item h3{font-size:20px}
+.tl-item .meta{color:var(--cyan);font-size:13px;font-weight:600;margin:2px 0 8px}
+.tl-item p,.tl-item li{color:var(--muted);font-size:15px}
+.tl-item ul{padding-left:18px;margin-top:6px}
+
+/* tools */
+.chips{display:flex;flex-wrap:wrap;gap:10px}
+.chip{border:1px solid var(--line);border-radius:999px;padding:8px 16px;font-size:14px;color:var(--text);background:var(--panel)}
+.chip.hot{border-color:var(--cyan);color:var(--cyan)}
+.group{margin-bottom:26px}
+.group h3{font-size:15px;color:var(--muted);font-weight:600;margin-bottom:10px;text-transform:uppercase;letter-spacing:.08em}
+
+/* testimonials */
+.tgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px}
+.quote{background:linear-gradient(170deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:var(--r);padding:28px;display:flex;flex-direction:column;gap:16px}
+.quote .mark{font-size:48px;line-height:.6;color:var(--cyan);font-weight:800}
+.quote p{font-size:16px}
+.quote footer{margin-top:auto;font-size:13px;color:var(--muted)}
+.quote footer b{color:var(--text);display:block;font-size:15px}
+.quote.pending{border-style:dashed}
+
+/* contact */
+.contact{text-align:center;background:radial-gradient(700px 360px at 50% 0%,rgba(58,222,233,.2),transparent 70%),#000}
+.contact h2{margin-bottom:10px}
+.contact .cta{justify-content:center}
+footer.site{padding:28px 0 40px;text-align:center;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.fade{opacity:0;transform:translateY(16px);transition:.7s}
+.fade.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.fade{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">Catherine <span>Nolasco</span></a>
+    <ul>
+      <li><a href="#global">Global</a></li>
+      <li><a href="#footprint">Footprint</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#ai">AI &amp; Tools</a></li>
+      <li><a href="#voices">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap grid">
+    <div>
+      <div class="eyebrow">Global People Operations Portfolio</div>
+      <h1>People Ops that scales across borders, <em>and keeps it human.</em></h1>
+      <p class="sub">SHRM-CP leader with 13+ years building HR for distributed teams across the US, Canada, Germany, India, Japan, the UK and the UAE. I put the systems, compliance and AI automation in place so leaders can spend their time on the conversations that need empathy.</p>
+      <div class="cta">
+        <a class="btn primary" href="assets/Catherine_Nolasco_Resume_Global_People_Operations.pdf">Download resume (PDF)</a>
+        <a class="btn ghost" href="#contact">Let's talk</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><b>5</b><span>countries run at Ridecell, plus UK and UAE via EOR</span></div>
+        <div class="stat"><b>6</b><span>consecutive clean SOC 2 Type 2 audits</span></div>
+        <div class="stat"><b>467</b><span>employees integrated after an acquisition</span></div>
+      </div>
+    </div>
+    <div class="photo">
+      <img src="assets/catherine-nolasco.jpg" alt="Portrait of Catherine Nolasco" width="800" height="1000">
+      <div class="badge">SHRM-CP</div>
+    </div>
+  </div>
+</header>
+
+<section id="global">
+  <div class="wrap fade">
+    <div class="eyebrow">How I build global</div>
+    <h2>One People Ops stack, five layers.</h2>
+    <p class="lede">Going global is not one project. It is a set of layers that have to work together. This is how I have built each one.</p>
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <div id="panels"></div>
+  </div>
+</section>
+
+<section id="footprint" class="alt">
+  <div class="wrap fade">
+    <div class="eyebrow">Country footprint</div>
+    <h2>Where I have run People Ops.</h2>
+    <p class="lede">Employees and entities in five countries at Ridecell, with Employer of Record coverage added in Canada, the UK and Dubai.</p>
+    <div class="countries">
+      <div class="country lead"><b>United States</b><span>Multi-state, 3 entities, I-9, handbooks</span></div>
+      <div class="country lead"><b>Canada</b><span>Payroll through an Employer of Record</span></div>
+      <div class="country lead"><b>Germany</b><span>Handbook aligned to local labor law</span></div>
+      <div class="country lead"><b>India</b><span>Team led through acquisition, India labor law policies</span></div>
+      <div class="country lead"><b>Japan</b><span>Expansion plus a local-law handbook</span></div>
+      <div class="country"><b>United Kingdom</b><span>EOR via Rippling at Prezent</span></div>
+      <div class="country"><b>UAE (Dubai)</b><span>EOR via Rippling at Prezent</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="work">
+  <div class="wrap fade">
+    <div class="eyebrow">Selected work</div>
+    <h2>Case studies.</h2>
+    <p class="lede">Ridecell first, then Prezent, including three AI builds that gave leadership visibility and an audit trail that did not exist before.</p>
+    <div class="cards">
+      <article class="card">
+        <span class="tag">Ridecell</span>
+        <h3>Built a global People Ops function from zero</h3>
+        <p>Director of People Operations, Dec 2018 to Jan 2026. Reported to the Chief People Officer.</p>
+        <ul>
+          <li>3 entities and 5 countries, scaled from 3 countries to 5 with the move into Canada and Japan</li>
+          <li>Handbooks for 5 jurisdictions with 100% policy acknowledgment tracking</li>
+          <li>40+ procedure SOP library with named owners and backups, supporting 6 consecutive clean SOC 2 Type 2 audits</li>
+          <li>Zero violations through multiple reductions in force and restructurings</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Ridecell</span>
+        <h3>HRIS decision and implementation</h3>
+        <p>Owned the build-vs-buy call to move from ADP Workforce Now to Sapling as the HR source of truth.</p>
+        <ul>
+          <li>Led implementation with a lean team and integrated both systems</li>
+          <li>Approval time cut from 1-2 days to 2-3 hours</li>
+          <li>ASKPeople, a Jira and Confluence HR ticketing system with tiered SLAs, resolving 5-10 tickets a day in 24-48 hours</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Ridecell</span>
+        <h3>Mobility and Canada</h3>
+        <p>Set up compliant, cost-effective Canadian payroll through an Employer of Record instead of standing up a legal entity for a single hire.</p>
+        <ul>
+          <li>Led the Immigration and Mobility program with external counsel</li>
+          <li>Implemented Envoy Global to replace a manual process</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Prezent AI</span>
+        <h3>Acquisition integration, 467 employees</h3>
+        <p>Led people, systems and culture integration after the Prezent Services acquisition.</p>
+        <ul>
+          <li>Consolidated Justworks and ADP Workforce Now onto Rippling as the single source of truth</li>
+          <li>Led the India team through restructuring (8 to 6 reorganized into specialized functions), retaining 100% through later expansion</li>
+          <li>Switched the India health plan from PLUM to Manipal Cigna</li>
+          <li>60-day compliance audit with 100% I-9 reverification</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">AI build</span>
+        <h3>Employee Action Form</h3>
+        <p>A Claude-powered form requiring documentation and approval before any HRIS change.</p>
+        <ul>
+          <li>100% adoption</li>
+          <li>Created an audit trail that had not existed</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">AI build</span>
+        <h3>Severance calculator and drafter</h3>
+        <p>Built for a reorganization of 18 employees across the US and India.</p>
+        <ul>
+          <li>Cut 20-30 minutes of drafting per employee to about 3 hours total for all 18</li>
+                  </ul>
+      </article>
+      <article class="card">
+        <span class="tag">AI build</span>
+        <h3>Reorganization cost model</h3>
+        <p>Gave leadership its first reduction-in-force cost visibility.</p>
+        <ul>
+          <li>Modeled the 13-person first wave: 6 US employees at $120K-$200K and 7 in India</li>
+          <li>Built with Claude and Gemini as the AI Re-Org Orchestrator</li>
+        </ul>
+      </article>
+      <article class="card">
+        <span class="tag">Prezent AI</span>
+        <h3>Culture and cost</h3>
+        <p>People programs that landed in both the US and India.</p>
+        <ul>
+          <li>"Wall of Love" recognition initiative, 300+ peer recognitions</li>
+          <li>"Get Fit" vendor and tech stack review, $150K in savings and cost avoidance</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="experience" class="alt">
+  <div class="wrap fade">
+    <div class="eyebrow">Experience</div>
+    <h2>Most recent first.</h2>
+    <div class="tl">
+      <div class="tl-item">
+        <h3>Director of People Operations, Ridecell</h3>
+        <div class="meta">Dec 2018 to Jan 2026 | US, Canada, Germany, India, Japan</div>
+        <p>Built the function for a 3-entity, 5-country workforce of 300+. Redesigned offboarding with early HR involvement, raising the company Glassdoor rating from 3.6 to 3.9, and negotiated a carrier switch that saved $30K a year. Reported headcount and workforce trends to the executive team and board each quarter and developed a direct report through four promotions.</p>
+      </div>
+      <div class="tl-item">
+        <h3>People Operations Consultant (Director level), Ridecell</h3>
+        <div class="meta">Jan 2026 to Jun 2026</div>
+        <p>Led HRIS configuration and delivered knowledge transfer across 20 active People programs to the incoming Senior Director.</p>
+      </div>
+      <div class="tl-item">
+        <h3>Head of People Operations, Prezent AI</h3>
+        <div class="meta">Feb 2026 to Apr 2026 | US, India, UK, UAE</div>
+        <p>Sole US-based HR employee at a $70M+ VC-funded AI SaaS company, reporting to the CEO and leading the India People team.</p>
+      </div>
+      <div class="tl-item">
+        <h3>Manager, People Operations, Munchery</h3>
+        <div class="meta">Oct 2017 to Dec 2018 | NY, SF, Seattle, LA</div>
+        <p>Managed onboarding, benefits, payroll, compliance and HRIS for 700+ employees, cutting the onboarding cycle 30%. Ran a WARN Act-compliant closure of the LA kitchen.</p>
+      </div>
+      <div class="tl-item">
+        <h3>Earlier experience</h3>
+        <div class="meta">HR generalist and operations roles</div>
+        <p>HR Generalist (Contract), Off the Grid. Employee Success Generalist (Contract), FinancialForce (Certinia). HR Operations Analyst, Dolby Laboratories, where I managed parts of the SAP SuccessFactors implementation including the payroll migration. HR Specialist, VF Corporation (The North Face / lucy). HRIS Coordinator, Pacific Dental Services. HR Coordinator, Quiksilver / Roxy / DC Inc.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="wrap fade">
+    <div class="eyebrow">AI &amp; tools</div>
+    <h2>Automation for the repeatable, people for the rest.</h2>
+    <p class="lede">AI handles the checklists, calculations and drafts. That frees People Ops to do the empathy, nuance and hard conversations that automation cannot.</p>
+    <div class="group"><h3>HRIS and payroll</h3><div class="chips">
+      <span class="chip hot">Workday</span><span class="chip hot">Rippling</span><span class="chip hot">ADP Workforce Now</span><span class="chip hot">Kallidus Sapling</span><span class="chip">SAP SuccessFactors</span><span class="chip">FinancialForce HCM</span><span class="chip">PeopleSoft</span><span class="chip">Taleo</span><span class="chip hot">Employer of Record</span></div></div>
+    <div class="group"><h3>Mobility and compliance</h3><div class="chips">
+      <span class="chip hot">Envoy Global</span><span class="chip">LawLogix / I-9 Advantage</span><span class="chip">E-Verify</span><span class="chip">Checkr</span><span class="chip">DocuSign</span><span class="chip hot">SOC 2 Type 2</span><span class="chip hot">GDPR / CCPA</span></div></div>
+    <div class="group"><h3>AI and automation</h3><div class="chips">
+      <span class="chip hot">Claude</span><span class="chip hot">ChatGPT</span><span class="chip hot">Gemini</span><span class="chip">Zapier</span><span class="chip">n8n</span><span class="chip">Make</span><span class="chip">Notion</span></div></div>
+    <div class="group"><h3>Recruiting, performance, collaboration</h3><div class="chips">
+      <span class="chip">Greenhouse</span><span class="chip">Workable</span><span class="chip">Lattice</span><span class="chip">15Five</span><span class="chip">Jira</span><span class="chip">Confluence</span><span class="chip">Slack</span><span class="chip">Google Workspace</span><span class="chip">Excel</span></div></div>
+    <div class="cards" style="margin-top:36px">
+      <article class="card"><h3>Education and certification</h3>
+        <p><b>SHRM-CP</b>, Society for Human Resource Management (issued Jan 2023, expires Dec 2029)</p>
+        <p style="margin-top:8px">B.A. Criminal Justice, San Francisco State University</p>
+        <p>Certificate in Human Resource Management, California State University, Long Beach</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="voices" class="alt">
+  <div class="wrap fade">
+    <div class="eyebrow">Testimonials</div>
+    <h2>What colleagues say.</h2>
+    <p class="lede">Real notes from colleagues across Slack, email and LinkedIn.</p>
+    <div class="tgrid" id="tgrid"></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap fade">
+    <div class="eyebrow">Contact</div>
+    <h2>Let's build something people want to work in.</h2>
+    <p class="lede" style="margin-inline:auto">Open to Head of People and Director of People Operations roles where global operations and AI-powered workflows are the mission.</p>
+    <div class="cta">
+      <a class="btn primary" href="mailto:catherine.nolasco@gmail.com">catherine.nolasco@gmail.com</a>
+      <a class="btn ghost" href="tel:+16507843774">(650) 784-3774</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/catherinenolasco">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site">Catherine Nolasco, SHRM-CP | San Francisco Bay Area, CA</footer>
+
+<script>
+const layers=[
+ {t:"Entities and payroll",h:"Entity strategy that matches the headcount",items:[
+  "<b>Ridecell:</b> 3 entities, 5 countries, scaled from 3 countries to 5 with the move into Canada and Japan",
+  "<b>Canada:</b> compliant payroll through an Employer of Record instead of standing up a legal entity for a single hire",
+  "<b>Prezent:</b> Rippling as Employer of Record for international employees in Dubai and the UK"]},
+ {t:"Compliance and policy",h:"One standard, local-law aware",items:[
+  "Handbooks across 5 jurisdictions aligned to local labor law, 100% acknowledgment tracking",
+  "Enterprise I-9 program, data governance and GDPR / CCPA practices",
+  "40+ procedure SOP library supporting 6 consecutive clean SOC 2 Type 2 audits",
+  "Zero violations through multiple reductions in force and restructurings",
+  "India labor law policies drafted at Prezent"]},
+ {t:"Global mobility",h:"Immigration without the spreadsheet",items:[
+  "Led the Immigration and Mobility program with external counsel",
+  "Implemented Envoy Global to replace a manual process",
+  "Liaison between immigration counsel and employees for H-1B, STEM OPT, green card and dependent filings"]},
+ {t:"Systems",h:"A single source of truth",items:[
+  "ADP Workforce Now to Sapling at Ridecell, approvals from 1-2 days to 2-3 hours",
+  "Justworks and ADP Workforce Now consolidated onto Rippling at Prezent",
+  "ASKPeople HR ticketing on Jira and Confluence with tiered SLAs"]},
+ {t:"Employee experience",h:"Global teams that feel like one team",items:[
+  "Glassdoor rating from 3.6 to 3.9 after redesigning offboarding",
+  "Wall of Love across the US, India and newly acquired teams, 300+ peer recognitions",
+  "India health plan switched from PLUM to Manipal Cigna for better coverage and service"]}
+];
+const tabs=document.getElementById('tabs'),panels=document.getElementById('panels');
+layers.forEach((l,i)=>{
+  const b=document.createElement('button');b.className='tab';b.role='tab';b.textContent=l.t;b.setAttribute('aria-selected',i===0);
+  const p=document.createElement('div');p.className='panel'+(i===0?' on':'');
+  p.innerHTML='<h3>'+l.h+'</h3><ul>'+l.items.map(x=>'<li>'+x+'</li>').join('')+'</ul>';
+  b.onclick=()=>{[...tabs.children].forEach((t,j)=>{t.setAttribute('aria-selected',j===i);panels.children[j].classList.toggle('on',j===i)})};
+  tabs.appendChild(b);panels.appendChild(p);
+});
+
+/* Testimonials. LinkedIn recommendations go FIRST in this order: Richie, Kouros, Carthey, John.
+   Add them by pasting entries at the top of this array. */
+const testimonials=[
+ // {name:"Richie ...", role:"...", src:"LinkedIn", text:"..."},
+ {name:"Jacque",role:"Senior Leader, Ridecell",src:"Slack",text:"You both did a fantastic job today with the All Hands! Thank you for all the hustle and the quality work. It really shows in the production and results of a smooth and great All Hands. You are a HUGE part of the behind the scenes and often front-of-the-line magic ✨🙏"},
+ {name:"Francine Carrick",role:"President, Prezent Vivo",src:"LinkedIn",text:"Thank you for making my onboarding so smooth and a lovely experience. Wishing you all the best."},
+ {name:"Samyak",role:"Executive, Ridecell",src:"Slack",text:"Really good work on how we have managed costs for our team the past few months. Very grateful to you for being proactive about this and being on top of it. It'll help."},
+ {name:"Bhargav",role:"Colleague, Ridecell",src:"Slack",text:"Special thanks for helping me out regarding California paid family leave and immigration things. Appreciate your proactiveness for being a helping hand 🙂"},
+ {name:"Jeremy",role:"Colleague, Ridecell",src:"Slack",text:"Cat? You are fan-tastic! Just saw the photos you shared. So much gold. You bring the best out in people by being you. Even better, you can capture it."},
+ {name:"Mark Thomas",role:"Ridecell",src:"Email",text:"Photos are AMAZING!!!! OMG. You have a great talent. Thank you for rallying the crowd last week at CONVERGE! Love the energy and sense of fun you brought to the event. Great work!"}
+];
+const tg=document.getElementById('tgrid');
+testimonials.forEach(t=>{
+  const q=document.createElement('blockquote');q.className='quote';
+  const m=document.createElement('div');m.className='mark';m.textContent='“';
+  const p=document.createElement('p');p.textContent=t.text;
+  const f=document.createElement('footer');
+  const b=document.createElement('b');b.textContent=t.name;
+  f.append(b,document.createTextNode(t.role+' | via '+t.src));
+  q.append(m,p,f);tg.appendChild(q);
+});
+
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.08});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>
