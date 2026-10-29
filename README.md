@@ -1,14 +1,11 @@
-# Catherine Nolasco | Global People Operations Portfolio
+# Global People Operations Portfolio
 
-A static, single-page portfolio (no build step). Open `index.html` or serve it with GitHub Pages.
+A single-page portfolio for Catherine Nolasco, SHRM-CP. Open `index.html`, or view the live page on GitHub Pages.
 
-## Publish on GitHub Pages
-1. Push this folder to a new repo.
-2. Settings > Pages > Deploy from branch > `main` / root.
+The page is self-contained: fonts, headshot and styles are embedded in `index.html`, so it works when uploaded on its own.
 
-## Add the LinkedIn recommendations
-In `index.html`, find the `testimonials` array and paste the entries at the top in this order: Richie, Kouros, Carthey, John.
+This is an independent portfolio styled after the DigitalOcean brand. It is not affiliated with or endorsed by DigitalOcean.
 
-## Files
-- `index.html` the site
-- `assets/` headshot, hero mesh, resume PDF
+Contact: catherine.nolasco@gmail.com | https://www.linkedin.com/in/catherinenolasco
+
+`src/` holds the build scripts (content.py, build_portfolio.py, art_svgs.py).
